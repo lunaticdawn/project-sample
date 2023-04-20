@@ -32,10 +32,13 @@ project:
     item-list:
       - name: "ConstraintViolationException"
         status: 400
-        code: "400"
+        res-code: "400"
       - name: "MethodArgumentNotValidException"
         status: 400
         code: "400"
       - name: "InvalidValueException"
         status: 400
         code: "400"
+      - name: "WebClientException"
+        status: 500
+        code: "500"
